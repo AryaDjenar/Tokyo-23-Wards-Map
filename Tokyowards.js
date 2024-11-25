@@ -614,7 +614,7 @@ wards.forEach(ward => {
 });
 
 // DOM Elements
-const audio = document.getElementById('bgm-audio');
+const audio = document.getElementById('Bgm-audio');
 const playPauseBtn = document.getElementById('play-pause-btn');
 const volumeUpBtn = document.getElementById('volume-up-btn');
 const volumeDownBtn = document.getElementById('volume-down-btn');
