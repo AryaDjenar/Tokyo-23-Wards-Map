@@ -95,9 +95,11 @@ body {
   color: #e0f7fa; /* Light cyan for text to ensure readability */
 }
 
-#map-container {
-  text-align: center;
-  padding: 20px;
+.map-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 /*SVG styling*/
