@@ -11,8 +11,8 @@ body {
 /* Intro Section Styling */
 #intro-section {
   position: relative;
-  width: 70%; /* Matches the map's width */
-  margin: 20px auto 20px; /* Centers the intro section and adds spacing below */
+  width: 85%; /* Matches the map's width */
+  margin: 20px  
   background-color: #070A3F; /* Same background as the map box */
   padding: 20px; /* Consistent padding */
   text-align: center; /* Center align the content */
