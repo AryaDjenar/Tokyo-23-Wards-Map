@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 545.6 620">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        mask: url(#mask);
+      }
+
+      .st1 {
+        fill: #5a004a;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 100;
+        stroke-width: 25px;
+      }
+    </style>
+    <mask id="mask" x="-546.9" y="-440.1" width="1639.3" height="1500.1" maskUnits="userSpaceOnUse">
+      <g id="c">
+        <circle class="st2" cx="272.8" cy="310" r="360"/>
+        <g id="b">
+          <circle id="a" cx="-246.8" cy="310" r="300"/>
+          <circle id="a1" data-name="a" cx="13" cy="-140" r="300"/>
+          <circle id="a2" data-name="a" cx="532.6" cy="-140" r="300"/>
+        </g>
+        <g id="b1" data-name="b">
+          <circle id="a3" data-name="a" cx="792.4" cy="310" r="300"/>
+          <circle id="a4" data-name="a" cx="532.6" cy="760" r="300"/>
+          <circle id="a5" data-name="a" cx="13" cy="760" r="300"/>
+        </g>
+        <circle class="st3" cx="272.8" cy="310" r="135"/>
+        <path d="M140.8,295h264v30H140.8v-30Z"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="st0">
+    <circle class="st1" cx="272.8" cy="310" r="300"/>
+  </g>
+</svg>
