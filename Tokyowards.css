@@ -11,7 +11,7 @@ body {
 /* Intro Section Styling */
 #intro-section {
   position: relative;
-  width: 50%; /* Matches the map's width */
+  width: 70%; /* Matches the map's width */
   margin: 20px auto 20px; /* Centers the intro section and adds spacing below */
   background-color: #070A3F; /* Same background as the map box */
   padding: 20px; /* Consistent padding */
@@ -19,7 +19,7 @@ body {
   border: 3.5px solid #38B0FB; /* Bright electric blue border */
   box-shadow: 5px 5px 20px #264a60; /* Glow effect matches map box */
   border-radius: 20px; /* Rounded corners consistent with the map box */
-  max-width: 700px; /* Aligns intro width to map container */
+  max-width: 900px; /* Aligns intro width to map container */
   box-sizing: border-box; /* Includes padding and border in the width calculation */
 }
 
@@ -137,7 +137,7 @@ path.selected {
   padding: 20px;
   border-radius: 10px;
   z-index: 500;
-  max-width: 500px; /* Fixed the invalid unit */
+  max-width: 800px; /* Fixed the invalid unit */
   max-height: 70vh;
   overflow-y: auto;
   font-size: 14px;
