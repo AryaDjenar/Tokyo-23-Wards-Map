@@ -51,7 +51,7 @@ body {
 }
 /* SVG Map Adjustments */
 svg {
-  width: 100%; /* Takes the full width of the container */
+  width: 80%; /* Takes the full width of the container */
   height: auto; /* Keeps the aspect ratio */
   margin: 0 auto;
   background-color: #2e539c;
@@ -315,4 +315,3 @@ path {
     stroke-width: 1.5px; /* Increase touch area on mobile */
   }
 }
-
