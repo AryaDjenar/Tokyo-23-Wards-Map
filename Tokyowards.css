@@ -6,8 +6,7 @@ body {
   margin: 0; /* Removes default browser margins */
 }
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 50px;
 }
 /* Intro Section Styling */
 #intro-section {
@@ -51,7 +50,7 @@ body {
 }
 /* SVG Map Adjustments */
 svg {
-  width: 80%; /* Takes the full width of the container */
+  width: 100%; /* Takes the full width of the container */
   height: auto; /* Keeps the aspect ratio */
   margin: 0 auto;
   background-color: #2e539c;
