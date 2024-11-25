@@ -277,3 +277,25 @@ svg path.st2 {
   transform: scale(1.2); /* Slight zoom on hover */
   filter: drop-shadow(0 6px 15px #38B0FB); /* Brighter glow on hover */
 }
+
+/* Default map styling */
+#map {
+  width: 100%; /* Ensure the map takes the full width of its container */
+  height: 400px; /* Set a reasonable default height */
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  #map {
+    height: 70vh; /* Increase map height slightly */
+  }
+}
+
