@@ -26,5 +26,5 @@ This project was inspired by my fascination with Tokyo’s vibrant wards, their 
 ---
 
 <div align="center">
-    <h1><b><a href="https://yourgithubusername.github.io/Tokyo-23-Wards-Map/">START EXPLORING</a></b></h1>
+    <h1><b><a href="https://aryadjenar.github.io/Tokyo-23-Wards-Map/">START EXPLORING</a></b></h1>
 </div>
