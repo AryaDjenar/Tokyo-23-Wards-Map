@@ -336,8 +336,8 @@ const wardData = {
             { name: "Kabukicho District", link: "https://www.google.com/maps/place/Kabukicho/@35.6961027,139.6977476,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cd5fa68afdf:0x2538821db5da2f9c!8m2!3d35.6961027!4d139.7003163" },
         ],
         hiddenGems: [
-            { name: "Samurai Museum", link: "https://www.google.com/maps/place/Samurai+Museum/@35.6967934,139.7035878,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cd49e51a401:0x9c94f8ffab43b9b!8m2!3d35.6967934!4d139.7061565" },
-            { name: "Shinjuku Batting Center", link: "https://www.google.com/maps/place/Shinjuku+Batting+Center/@35.6962594,139.7031063,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cd3c41eaf47:0xb8e2f5fd7b5c8a4f!8m2!3d35.6962594!4d139.7056746" },
+            { name: "Shinjuku Ophthalmologist Gallery", link: "https://www.google.com/maps/place/Shinjuku+Ganka+Art+Gallery+(Shinjuki+Ganka+Garō)/@35.6947193,139.7037066,17z/data=!3m2!4b1!5s0x60188cd952f2b1a9:0x595b18ad95c799ca!4m6!3m5!1s0x60188cd94d99cab9:0xe58d9699e567a6f9!8m2!3d35.694715!4d139.7062815!16s%2Fg%2F12269bkl?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Kabukicho Theater", link: "https://www.google.com/maps/place/Kabukicho+Theater/@35.6938611,139.7030639,17z/data=!4m15!1m8!3m7!1s0x60188d39930f3643:0x73339a575f721f42!2sKabukicho+Theater!8m2!3d35.6938842!4d139.702995!10e5!16s%2Fg%2F11v48kj7g6!3m5!1s0x60188d39930f3643:0x73339a575f721f42!8m2!3d35.6938842!4d139.702995!16s%2Fg%2F11v48kj7g6?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Shinjuku",
     },
