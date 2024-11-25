@@ -51,12 +51,12 @@ body {
 }
 /* SVG Map Adjustments */
 svg {
-  max-width: 50%; /* Matches intro section */
-  height: auto;
-  margin: 0 auto; /* Center-align map */
-  background-color: #2e539c; /* Slightly darker blue for the map background */
-  border: 3.5px solid #38B0FB; /* Bright electric blue border */
-  box-shadow: 5px 5px 20px #264a60; /* Glow effect */
+  width: 100%; /* Takes the full width of the container */
+  height: auto; /* Keeps the aspect ratio */
+  margin: 0 auto;
+  background-color: #2e539c;
+  border: 3.5px solid #38B0FB;
+  box-shadow: 5px 5px 20px #264a60;
   padding: 10px;
   border-radius: 20px;
 }
@@ -64,8 +64,10 @@ svg {
 
 /* SVG Map Adjustments */
 #map {
-  margin-top: 20px; /* Space between intro and map */
-  display: block; /* Centers the map */
+  margin-top: 20px;
+  display: block;
+  width: 90%; /* Reduces the map size slightly for better spacing */
+  max-width: 500px; /* Limits the size on larger screens */
   margin-left: auto;
   margin-right: auto;
 }
@@ -288,16 +290,29 @@ svg path.st2 {
 
 /* Adjust font size for smaller screens */
 @media screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-
-  h1, h2 {
-    font-size: 1.5rem;
-  }
-
   #map {
-    height: 70vh; /* Increase map height slightly */
+    width: 95%; /* Takes more space on smaller screens */
+    height: auto; /* Adjusts height dynamically */
+  }
+
+  svg {
+    padding: 5px; /* Reduces padding on smaller screens */
+    border-radius: 10px; /* Slightly less rounded corners */
+  }
+
+  #intro-section {
+    width: 90%; /* Reduce the width of the intro section for consistency */
+    font-size: 0.9rem; /* Adjust text size */
+  }
+}
+
+path {
+  stroke-width: 1px; /* Slightly thicker stroke for easier visibility */
+}
+
+@media screen and (max-width: 600px) {
+  path {
+    stroke-width: 1.5px; /* Increase touch area on mobile */
   }
 }
 
