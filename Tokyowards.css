@@ -1,18 +1,21 @@
+/* Global Styling */
 body {
   background-image: url('Circuit-BG.jpg'); /* Path to your image */
   background-repeat: repeat; /* Ensures the image tiles */
   background-size: 2000px; /* Keeps the original size of the image */
   background-position: top left; /* Starts tiling from the top-left corner */
   margin: 0; /* Removes default browser margins */
+  padding: 0; /* Resets default padding */
+  font-family: 'DotGothic16', sans-serif;
+  color: #e0f7fa; /* Light cyan for text */
+  background-color: #070a3f; /* Navy blue background for consistency */
 }
-body {
-  padding: 50px;
-}
+
 /* Intro Section Styling */
 #intro-section {
   position: relative;
   width: 85%; /* Matches the map's width */
-  margin: 20px  
+  margin: 20px auto; /* Centers the intro section */
   background-color: #070A3F; /* Same background as the map box */
   padding: 20px; /* Consistent padding */
   text-align: center; /* Center align the content */
@@ -23,17 +26,18 @@ body {
   box-sizing: border-box; /* Includes padding and border in the width calculation */
 }
 
-
 #map-title {
   font-size: 1.8rem; /* Adjusted font size for better visibility */
   color: #00ccff; /* Neon glow color */
   margin: 0 0 10px; /* Margin spacing for the title */
 }
+
 #map-subtitle {
   font-size: 0.8rem; /* Adjusted font size for better visibility */
   color: #00ccff; /* Neon glow color */
-  margin: 0 0 10px; /* Margin spacing for the title */
+  margin: 0 0 10px; /* Margin spacing for the subtitle */
 }
+
 #intro-paragraph {
   font-size: 0.8rem; /* Adjusted for readability */
   color: #ffffff; /* Light text for readability */
@@ -41,86 +45,54 @@ body {
   max-width: 100%; /* Aligns with intro box */
   margin: 0 auto; /* Centers the paragraph */
 }
+
 #intro-paragraph2 {
   font-size: 0.8rem; /* Adjusted for readability */
-  color: #fba638; /* Light text for readability */
+  color: #fba638; /* Highlighted text */
   line-height: 1.4; /* Consistent line spacing */
   max-width: 100%; /* Aligns with intro box */
   margin: 0 auto; /* Centers the paragraph */
 }
-/* SVG Map Adjustments */
+
+/* SVG Map Styling */
 svg {
-  width: 100%; /* Takes the full width of the container */
-  height: auto; /* Keeps the aspect ratio */
-  margin: 0 auto;
-  background-color: #2e539c;
-  border: 3.5px solid #38B0FB;
-  box-shadow: 5px 5px 20px #264a60;
-  padding: 10px;
-  border-radius: 20px;
+  display: block; /* Ensures the map centers within the container */
+  width: 90%; /* Adjusts map width for better balance */
+  height: auto; /* Maintains aspect ratio */
+  margin: 0 auto; /* Centers the map */
+  background-color: #2e539c; /* Slightly darker blue for the map background */
+  border: 3.5px solid #38B0FB; /* Bright electric blue border */
+  box-shadow: 5px 5px 20px #264a60; /* Glow effect */
+  padding: 10px; /* Adds padding inside the map box */
+  border-radius: 20px; /* Rounded edges */
 }
 
-
-/* SVG Map Adjustments */
+/* SVG Map Container */
 #map {
-  margin-top: 20px;
-  display: block;
-  width: 90%; /* Reduces the map size slightly for better spacing */
-  max-width: 500px; /* Limits the size on larger screens */
+  margin-top: 40px; /* Space between intro and map */
+  max-width: 600px; /* Limits map size on large screens */
+  width: 100%; /* Ensures responsiveness */
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Body background for consistency */
-body {
-  background-color: #001f33; /* Navy blue Digimon-inspired background */
-}
-
-/* Adjusting SVG map to balance layout */
-#map {
-  margin-top: 180px; /* Adds space between the intro and map */
-  margin-left: auto;
-  margin-right: auto;
-  display: block; /* Centers the map */
-}
-
-/* Body background for consistency */
-body {
-  background-color: #001f33; /* Navy blue Digimon-inspired background */
-}
-
-body {
-  font-family: 'DotGothic16', sans-serif;
-  margin: 0;
-  background-color: #070a3f; /* Dark blue background for a digital look */
-  color: #e0f7fa; /* Light cyan for text to ensure readability */
-}
-
-.map-container {
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
-  margin: 0 auto;
-}
-
-/*SVG styling*/
+/* Styling for map paths (wards) */
 path {
   fill: #38b0fb; /* Default blue fill for wards */
   stroke-width: 0.3px;
   transition: fill 0.5s ease, stroke 0.5s ease, stroke-width 0.3s ease, transform 0.3s ease;
 }
 
-/*Transition for svg path*/
 path:hover {
-  fill: #85d0ff; /* Blue fill on hover */
-  stroke: #070a3f; /* Blue stroke */
-  stroke-width: 0.3px; /* Thicker stroke on hover */
+  fill: #85d0ff; /* Lighter blue fill on hover */
+  stroke: #070a3f; /* Darker blue stroke */
+  stroke-width: 0.5px; /* Slightly thicker stroke on hover */
 }
 
 path.selected {
-  fill: #85d0ff; /* Blue fill for selected ward */
-  stroke: #070a3f; /* Strong blue stroke */
-  stroke-width: 0.3px; /* Thicker stroke for selected */
+  fill: #85d0ff; /* Highlight selected ward */
+  stroke: #070a3f; /* Darker blue stroke */
+  stroke-width: 0.5px; /* Slightly thicker stroke */
 }
 
 /* Styling for info box */
@@ -137,7 +109,7 @@ path.selected {
   padding: 20px;
   border-radius: 10px;
   z-index: 500;
-  max-width: 800px; /* Fixed the invalid unit */
+  max-width: 500px; /* Fixed the invalid unit */
   max-height: 70vh;
   overflow-y: auto;
   font-size: 14px;
@@ -287,30 +259,20 @@ svg path.st2 {
   height: 400px; /* Set a reasonable default height */
 }
 
-/* Adjust font size for smaller screens */
+/* Responsive Design for Smaller Screens */
 @media screen and (max-width: 600px) {
+  #intro-section {
+    width: 90%; /* Adjust intro width for smaller screens */
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
   #map {
-    width: 95%; /* Takes more space on smaller screens */
-    height: auto; /* Adjusts height dynamically */
+    width: 100%; /* Use full width */
+    margin-top: 20px; /* Adjust spacing */
   }
 
   svg {
-    padding: 5px; /* Reduces padding on smaller screens */
-    border-radius: 10px; /* Slightly less rounded corners */
-  }
-
-  #intro-section {
-    width: 90%; /* Reduce the width of the intro section for consistency */
-    font-size: 0.9rem; /* Adjust text size */
-  }
-}
-
-path {
-  stroke-width: 1px; /* Slightly thicker stroke for easier visibility */
-}
-
-@media screen and (max-width: 600px) {
-  path {
-    stroke-width: 1.5px; /* Increase touch area on mobile */
+    padding: 5px; /* Reduce padding for smaller screens */
+    border-radius: 10px; /* Less rounded corners */
   }
 }
