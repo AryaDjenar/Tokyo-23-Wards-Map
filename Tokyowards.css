@@ -1,0 +1,279 @@
+body {
+  background-image: url('circuit-bg.jpg'); /* Path to your image */
+  background-repeat: repeat; /* Ensures the image tiles */
+  background-size: 2000px; /* Keeps the original size of the image */
+  background-position: top left; /* Starts tiling from the top-left corner */
+  margin: 0; /* Removes default browser margins */
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Intro Section Styling */
+#intro-section {
+  position: relative;
+  width: 50%; /* Matches the map's width */
+  margin: 20px auto 20px; /* Centers the intro section and adds spacing below */
+  background-color: #070A3F; /* Same background as the map box */
+  padding: 20px; /* Consistent padding */
+  text-align: center; /* Center align the content */
+  border: 3.5px solid #38B0FB; /* Bright electric blue border */
+  box-shadow: 5px 5px 20px #264a60; /* Glow effect matches map box */
+  border-radius: 20px; /* Rounded corners consistent with the map box */
+  max-width: 700px; /* Aligns intro width to map container */
+  box-sizing: border-box; /* Includes padding and border in the width calculation */
+}
+
+
+#map-title {
+  font-size: 1.8rem; /* Adjusted font size for better visibility */
+  color: #00ccff; /* Neon glow color */
+  margin: 0 0 10px; /* Margin spacing for the title */
+}
+#map-subtitle {
+  font-size: 0.8rem; /* Adjusted font size for better visibility */
+  color: #00ccff; /* Neon glow color */
+  margin: 0 0 10px; /* Margin spacing for the title */
+}
+#intro-paragraph {
+  font-size: 0.8rem; /* Adjusted for readability */
+  color: #ffffff; /* Light text for readability */
+  line-height: 1.4; /* Consistent line spacing */
+  max-width: 100%; /* Aligns with intro box */
+  margin: 0 auto; /* Centers the paragraph */
+}
+#intro-paragraph2 {
+  font-size: 0.8rem; /* Adjusted for readability */
+  color: #fba638; /* Light text for readability */
+  line-height: 1.4; /* Consistent line spacing */
+  max-width: 100%; /* Aligns with intro box */
+  margin: 0 auto; /* Centers the paragraph */
+}
+/* SVG Map Adjustments */
+svg {
+  max-width: 50%; /* Matches intro section */
+  height: auto;
+  margin: 0 auto; /* Center-align map */
+  background-color: #2e539c; /* Slightly darker blue for the map background */
+  border: 3.5px solid #38B0FB; /* Bright electric blue border */
+  box-shadow: 5px 5px 20px #264a60; /* Glow effect */
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+/* SVG Map Adjustments */
+#map {
+  margin-top: 20px; /* Space between intro and map */
+  display: block; /* Centers the map */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Body background for consistency */
+body {
+  background-color: #001f33; /* Navy blue Digimon-inspired background */
+}
+
+/* Adjusting SVG map to balance layout */
+#map {
+  margin-top: 180px; /* Adds space between the intro and map */
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Centers the map */
+}
+
+/* Body background for consistency */
+body {
+  background-color: #001f33; /* Navy blue Digimon-inspired background */
+}
+
+body {
+  font-family: 'DotGothic16', sans-serif;
+  margin: 0;
+  background-color: #070a3f; /* Dark blue background for a digital look */
+  color: #e0f7fa; /* Light cyan for text to ensure readability */
+}
+
+#map-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/*SVG styling*/
+path {
+  fill: #38b0fb; /* Default blue fill for wards */
+  stroke-width: 0.3px;
+  transition: fill 0.5s ease, stroke 0.5s ease, stroke-width 0.3s ease, transform 0.3s ease;
+}
+
+/*Transition for svg path*/
+path:hover {
+  fill: #85d0ff; /* Blue fill on hover */
+  stroke: #070a3f; /* Blue stroke */
+  stroke-width: 0.3px; /* Thicker stroke on hover */
+}
+
+path.selected {
+  fill: #85d0ff; /* Blue fill for selected ward */
+  stroke: #070a3f; /* Strong blue stroke */
+  stroke-width: 0.3px; /* Thicker stroke for selected */
+}
+
+/* Styling for info box */
+#info-box {
+  text-align: left;
+  position: fixed;
+  z-index: 5000; /* Higher than any other element */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #070A3F; /* Darker blue for contrast */
+  border: 4px solid #38B0FB; /* Electric blue border */
+  box-shadow: 0 4px 20px #264a60; /* Glow effect */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 500;
+  max-width: 500px; /* Fixed the invalid unit */
+  max-height: 70vh;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #e0f7fa; /* Light cyan text */
+  display: none; /* Default hidden */
+}
+
+#info-box.visible {
+  display: block;
+}
+
+/* Info Box Header */
+#info-box .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ward-flag {
+  display: block;
+  width: 60px; /* Adjust width of the flag */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between the flag and text */
+}
+
+#info-box h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00aaff; /* Bright electric blue for titles */
+}
+
+/* Labels and Values */
+#info-box .label {
+  font-weight: bold;
+  color: #00c4ff; /* Lighter blue for labels */
+}
+
+#info-box .value {
+  color: #e0f7fa; /* Light cyan for values */
+}
+
+
+/* Links */
+#info-box a {
+  color: #52E05E; /* Bright cyan for links */
+  text-decoration: none;
+}
+
+#info-box a:hover {
+  text-decoration: underline;
+}
+
+/* Grid Layout for Info Box */
+#info-box .content {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Left column smaller, right column larger */
+  gap: 5px;
+}
+
+.ward-flag {
+  display: inline-block; /* Ensures proper spacing */
+  background-color: white; /* White background */
+  padding: 5px; /* Add padding around the emblem */
+  border: 2px solid #38B0FB; /* Black stroke/border around the background */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+#kanji_labels,
+#english_labels {
+    pointer-events: none;
+}
+
+/* Disable pointer events for st1 and st2 */
+svg path.st1,
+svg path.st2 {
+    pointer-events: none;
+}
+
+/* Audio Controls Section Styling */
+#audio-controls {
+  position: relative;
+  width: 50%; /* Matches the map's width */
+  margin-top: 20px;
+  margin: 0 auto 20px; /* Centers the intro section and adds spacing below */
+  padding: 20px; /* Consistent padding */
+  text-align: center; /* Center align the content */
+}
+
+/* Buttons inside Audio Controls */
+#audio-controls button {
+  background-color: #070a3f; /* Matches container background */
+  color: #e0f7fa; /* Light cyan text */
+  border: 2px solid #38B0FB; /* Bright electric blue border for buttons */
+  padding: 10px 20px;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  font-family: 'DotGothic16', sans-serif;
+  box-shadow: 0 4px 10px rgba(56, 176, 251, 0.5); /* Slight glow on buttons */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  margin: 3px; /* Adds slight spacing between buttons */
+}
+
+/* Hover Effect for Buttons */
+#audio-controls button:hover {
+  background-color: #2e539c; /* Slightly brighter blue on hover */
+  box-shadow: 0 0 15px #38B0FB; /* Intense glow effect on hover */
+}
+
+/* Introductory Text for Audio Section */
+#audio-intro {
+  max-width: 500px; /* Ensures text doesn't exceed the container */
+  font-size: 0.8rem;
+  color: #e0f7fa90; /* Light cyan text for readability */
+  line-height: 1.4; /* Improves readability */
+  margin: 10px auto 0; /* Centers the text and adds spacing above */
+  text-align: center; /* Aligns the text to the center */
+}
+
+/* Footer Styling */
+#social-footer {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  align-items: center; /* Vertically align icons */
+  gap: 50px; /* Space between icons */
+  margin-top: 40px; /* Space between the footer and content above */
+}
+
+/* Social Media Icons */
+.social-icon {
+  width: 30px; /* Size of the icons */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 4px 10px #264a60); /* Add a subtle glow effect */
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+  filter: drop-shadow(0 6px 15px #38B0FB); /* Brighter glow on hover */
+}
