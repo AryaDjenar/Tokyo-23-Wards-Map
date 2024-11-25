@@ -1,5 +1,5 @@
 body {
-  background-image: url('circuit-bg.jpg'); /* Path to your image */
+  background-image: url('Circuit-BG.jpg'); /* Path to your image */
   background-repeat: repeat; /* Ensures the image tiles */
   background-size: 2000px; /* Keeps the original size of the image */
   background-position: top left; /* Starts tiling from the top-left corner */
