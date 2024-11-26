@@ -164,7 +164,7 @@ const wardData = {
         famousFood: "Cafés and bakeries in Shimokitazawa, plus traditional soba and sushi.",
         landmarks: [
             { name: "Setagaya Park", link: "https://www.google.com/maps/place/Setagaya+Park/@35.6437357,139.6815533,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f362681cd361:0x65b4368423c4c4a8!8m2!3d35.6437357!4d139.6815533!16s%2Fg%2F1228ll8h?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-           { name: "Gotokuji Temple (Home of the Lucky Cat)", link: "https://www.google.com/maps/place/Gōtokuji+Temple/@35.6488167,139.6428676,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f39f99015555:0x6b0e9ad51be4cac!8m2!3d35.6488124!4d139.647481!16s%2Fg%2F122r_g9j?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Gotokuji Temple (Home of the Lucky Cat)", link: "https://www.google.com/maps/place/Gōtokuji+Temple/@35.6488167,139.6428676,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f39f99015555:0x6b0e9ad51be4cac!8m2!3d35.6488124!4d139.647481!16s%2Fg%2F122r_g9j?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
             { name: "Todoroki Valley", link: "https://www.google.com/maps/place/Todoroki+Ravine+Park/@35.6039019,139.6436623,16z/data=!3m1!4b1!4m6!3m5!1s0x6018f45405495069:0x71ab45cd45edb2b9!8m2!3d35.6038976!4d139.6462372!16s%2Fg%2F119vcct78?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
