@@ -58,13 +58,13 @@ const wardData = {
         briefHistory: "Katsushika is a historically rich ward, famous for its depictions in traditional ukiyo-e art and for being home to the nostalgic 'Shibamata Taishakuten Temple.'",
         famousFood: "Yokan (traditional sweet bean jelly) and Shibamata dango (sweet rice dumplings).",
         landmarks: [
-            { name: "Shibamata Taishakuten Temple", link: "https://www.google.com/maps/place/Shibamata+Taishakuten/@35.7560511,139.8770731,17z/data=!3m1!4b1!4m6!3m5!1s0x6018829f0a4d6db1:0x9f0b9a7bbdaee0ec!8m2!3d35.7560511!4d139.8792472?entry=ttu" },
-            { name: "Yagiri no Watashi", link: "https://www.google.com/maps/place/Yagiri+no+Watashi/@35.7482542,139.8697388,17z/data=!3m1!4b1!4m6!3m5!1s0x601882787423685f:0xe5dfc111789e7c11!8m2!3d35.7482542!4d139.8723136?entry=ttu" },
-            { name: "Mizumoto Park", link: "https://www.google.com/maps/place/Mizumoto+Park/@35.7896869,139.8471229,17z/data=!3m1!4b1!4m6!3m5!1s0x601880ba67e37df5:0xf1201e2705b2cb7!8m2!3d35.7896869!4d139.8493072?entry=ttu" },
+            { name: "Shibamata Taishakuten Temple", link: "https://www.google.com/maps/place/Shibamata+Taishakuten/@35.7584104,139.8738244,16z/data=!3m1!4b1!4m6!3m5!1s0x601885a32dacd473:0x550a90c0da0aaf97!8m2!3d35.7584061!4d139.8784378!16s%2Fm%2F0gmbz5c?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Yagiri no Watashi", link: "https://www.google.com/maps/place/Yagiri+no+Watashi/@35.7594582,139.8657454,15z/data=!4m10!1m2!2m1!1syagiri+no+watashi!3m6!1s0x601885bae9dec051:0x8bb6ba96b2a322d9!8m2!3d35.7594582!4d139.8837698!15sChF5YWdpcmkgbm8gd2F0YXNoaVoTIhF5YWdpcmkgbm8gd2F0YXNoaZIBEnRvdXJpc3RfYXR0cmFjdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSd01EUlBZemRCUlJBQuABAPoBBAgAECk!16s%2Fg%2F1q5bm034n?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Mizumoto Park", link: "https://www.google.com/maps/place/Mizumoto+Park/@35.7864756,139.866708,17z/data=!3m1!4b1!4m6!3m5!1s0x60188543f1d73dd3:0xcb856228a574508!8m2!3d35.7864713!4d139.8692829!16s%2Fm%2F0g5669z?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Katsushika City Museum", link: "https://www.google.com/maps/place/Katsushika+City+Museum/@35.7570235,139.8515013,17z/data=!3m1!4b1!4m6!3m5!1s0x60188253e1a6e0b9:0xc9b36ab57d7025db!8m2!3d35.7570235!4d139.8536755?entry=ttu" },
-            { name: "Tora-san Museum", link: "https://www.google.com/maps/place/Tora-san+Museum/@35.7550785,139.8795313,17z/data=!3m1!4b1!4m6!3m5!1s0x6018829f2bb1245d:0x455640ba891798dc!8m2!3d35.7550785!4d139.8817053?entry=ttu" },
+            { name: "Katsushika City Museum", link: "https://www.google.com/maps/place/Katsushika+City+Museum/@35.7529384,139.8386048,17z/data=!3m1!4b1!4m6!3m5!1s0x60188f77e9aa199b:0xc02f0322c3f6b9d9!8m2!3d35.7529341!4d139.8432182!16s%2Fg%2F1212xjwr?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Yamamoto Tei", link: "https://www.google.com/maps/place/Yamamoto-tei/@35.7580225,139.8776007,17z/data=!3m2!4b1!5s0x601885bc9f93c57b:0xa230d50ac7f05fe0!4m6!3m5!1s0x601885bc9f617471:0xec6091ba1a62b33f!8m2!3d35.7580182!4d139.8801756!16s%2Fg%2F121djs34?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Katsushika"
     },
@@ -164,7 +164,7 @@ const wardData = {
         famousFood: "Cafés and bakeries in Shimokitazawa, plus traditional soba and sushi.",
         landmarks: [
             { name: "Setagaya Park", link: "https://www.google.com/maps/place/Setagaya+Park/@35.6437357,139.6815533,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f362681cd361:0x65b4368423c4c4a8!8m2!3d35.6437357!4d139.6815533!16s%2Fg%2F1228ll8h?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-           { name: "Gotokuji Temple (Home of Maneki-neko)", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+           { name: "Gotokuji Temple (Home of the Lucky Cat)", link: "https://www.google.com/maps/place/Gōtokuji+Temple/@35.6488167,139.6428676,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f39f99015555:0x6b0e9ad51be4cac!8m2!3d35.6488124!4d139.647481!16s%2Fg%2F122r_g9j?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
             { name: "Todoroki Valley", link: "https://www.google.com/maps/place/Todoroki+Ravine+Park/@35.6039019,139.6436623,16z/data=!3m1!4b1!4m6!3m5!1s0x6018f45405495069:0x71ab45cd45edb2b9!8m2!3d35.6038976!4d139.6462372!16s%2Fg%2F119vcct78?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
@@ -207,7 +207,7 @@ const wardData = {
         landmarks: [
             { name: "Sengakuji Temple", link: "https://www.google.com/maps/place/Sengaku-ji/@35.637744,139.7338257,17z/data=!3m2!4b1!5s0x60188bab517883d3:0x3547b1e7e0dc53f9!4m6!3m5!1s0x60188bab4f0aae87:0x9e2f9a03c61c1e2b!8m2!3d35.6377397!4d139.7364006!16zL20vMDMxdjQz?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
             { name: "Tennozu Isle", link: "https://www.google.com/maps/place/Tennōzu+Isle+Waterfront+Plaza/@35.6377654,139.7261009,15z/data=!4m10!1m2!2m1!1stenozu+isle!3m6!1s0x60188a6aa53e509b:0x226fb4d0fc73b16b!8m2!3d35.6245994!4d139.7516996!15sCgx0ZW5ub3p1IGlzbGWSAQRwYXJr4AEA!16s%2Fg%2F121h3gc7?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Hara Museum ARC", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Hara Museum ARC", link: "https://www.google.com/maps/place/Hara+Museum+ARC/@36.5028319,138.9427326,17z/data=!3m1!4b1!4m6!3m5!1s0x601e63ec1e11c225:0x47f55b2ed0231732!8m2!3d36.5028276!4d138.9453075!16s%2Fg%2F1tf244x2?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
             { name: "Shinagawa Shrine", link: "https://www.google.com/maps/place/Shinagawa+Shrine/@35.6184708,139.7371299,17z/data=!3m1!4b1!4m6!3m5!1s0x60188a6707ed45a9:0xeb3ccef0c68029e4!8m2!3d35.6184665!4d139.7397048!16s%2Fg%2F1vl9rgrv?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
@@ -232,7 +232,7 @@ const wardData = {
         ],
         hiddenGems: [
             { name: "Meguro Fudo Temple", link: "https://www.google.com/maps/place/Ryusen-ji+Temple+(Meguro+Fudoson)/@35.6286428,139.7054982,16z/data=!3m1!4b1!4m6!3m5!1s0x60188b211bf9465b:0xaab404001c37f6bf!8m2!3d35.6286385!4d139.7080731!16s%2Fm%2F0wbmrdv?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Nakameguro Koukashita", link: "hhttps://www.google.com/maps/place/Naka-Meguro+Koukashita/@35.6444244,139.6965067,17z/data=!3m2!4b1!5s0x60188b48deea10d9:0x4c4c59b53e0fbcd0!4m6!3m5!1s0x60188d78c9f5d583:0x46b757a502e461db!8m2!3d35.6444201!4d139.6990816!16s%2Fg%2F11qnf6yqwk?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Komeisen", link: "https://www.google.com/maps/place/Komeisen/@35.6444201,139.6990816,17z/data=!4m6!3m5!1s0x60188b48b4340837:0xc5dc6e3eb5e99118!8m2!3d35.6456389!4d139.7003252!16s%2Fg%2F1xb2dkkt?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Meguro,_Tokyo"
     },
@@ -462,7 +462,7 @@ const wardData = {
             { name: "Hamarikyu Gardens", link: "https://www.google.com/maps/place/Hamarikyū+Gardens/@35.6596559,139.7634091,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bdcbaa0f7c1:0x9b4a9ebdf898381a!8m2!3d35.6596559!4d139.7634091!16s%2Fg%2F1ts1mmld?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Stock+", link: "https://www.google.com/maps/place/Bank+of+Japan+Currency+Museum/@35.6854615,139.7716826,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bfe39d03f61:0xcb146916efad5dda!8m2!3d35.6854615!4d139.7716826!16s%2Fm%2F0bbvyrr?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Sakuaragawa Park", link: "https://www.google.com/maps/place/Komeisen/@35.6444201,139.6990816,17z/data=!4m6!3m5!1s0x60188b48b4340837:0xc5dc6e3eb5e99118!8m2!3d35.6456389!4d139.7003252!16s%2Fg%2F1xb2dkkt?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
             { name: "Tsukuda Park", link: "https://www.google.com/maps/place/Tsukuda+Park/@35.6766743,139.7505339,14z/data=!4m10!1m2!2m1!1stsukudajima+island+walk!3m6!1s0x60188965f3ecc001:0x681f234aff8b7945!8m2!3d35.6697609!4d139.7830242!15sChd0c3VrdWRhamltYSBpc2xhbmQgd2Fsa1oZIhd0c3VrdWRhamltYSBpc2xhbmQgd2Fsa5IBBHBhcmuaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkVlWFIyZEdwQlJSQULgAQA!16s%2Fg%2F11g6nvd0pk?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo",
