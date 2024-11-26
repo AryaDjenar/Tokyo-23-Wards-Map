@@ -18,7 +18,7 @@ const wardData = {
         landmarks: [
             { name: "Kasai Rinkai Park", link: "https://www.google.com/maps/place/Kasai+Rinkai+Park/@35.641989,139.857751,17z/data=!3m1!4b1!4m6!3m5!1s0x60187d518db27a07:0x16a09c88d4b35113!8m2!3d35.6419847!4d139.8603206!16zL20vMDh0NXQ1?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
             { name: "Edogawa Natural Zoo", link: "https://www.google.com/maps/place/Edogawa+City+Nature+Zoo/@35.6710531,139.8558325,17z/data=!3m1!4b1!4m6!3m5!1s0x601887dec4f261c9:0x8ee1ac2d27261b!8m2!3d35.6710488!4d139.8584021!16s%2Fg%2F1227d3zx?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Crystal View Observatory", link: "https://maps.app.goo.gl/rau8otDffSuRwBqG8" },
+            { name: "Crystal View Observatory", link: "https://www.google.com/maps/place/Crystal+View+Rest+House/@35.6406241,139.8569709,17z/data=!3m1!4b1!4m6!3m5!1s0x601862aa70dba733:0x98f7bcddaa120d53!8m2!3d35.6406198!4d139.8595458!16s%2Fg%2F11clvrtz7q?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
             { name: "Ichinoe Nanushi Yashiki", link: "https://www.google.com/maps/place/Ichinoe+Nanushi+Yashiki/@35.6981705,139.8894779,17z/data=!3m1!4b1!4m6!3m5!1s0x601887acb6fbffff:0x9f869e11227009f6!8m2!3d35.6981705!4d139.8894779!16s%2Fg%2F11bwf544z5?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
@@ -164,11 +164,11 @@ const wardData = {
         famousFood: "Cafés and bakeries in Shimokitazawa, plus traditional soba and sushi.",
         landmarks: [
             { name: "Setagaya Park", link: "https://www.google.com/maps/place/Setagaya+Park/@35.6437357,139.6815533,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f362681cd361:0x65b4368423c4c4a8!8m2!3d35.6437357!4d139.6815533!16s%2Fg%2F1228ll8h?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Carrot Tower", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Todoroki Valley", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+           { name: "Gotokuji Temple (Home of Maneki-neko)", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Todoroki Valley", link: "https://www.google.com/maps/place/Todoroki+Ravine+Park/@35.6039019,139.6436623,16z/data=!3m1!4b1!4m6!3m5!1s0x6018f45405495069:0x71ab45cd45edb2b9!8m2!3d35.6038976!4d139.6462372!16s%2Fg%2F119vcct78?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Gotokuji Temple (Home of Maneki-neko)", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Carrot Tower", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
             { name: "Shimokitazawa Theater District", link: "https://www.google.com/maps/place/Shimokitazawa/@35.6610045,139.6663756,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f5d2c58a022f:0x378a32781c5cb8df!8m2!3d35.6610045!4d139.6689449" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Setagaya"
@@ -184,13 +184,13 @@ const wardData = {
         briefHistory: "Formed in 1947 by merging Omori and Kamata wards. Home to Haneda Airport and a hub of industrial and cultural development.",
         famousFood: "Haneda Monaka (traditional Japanese sweets) and Kamata Gyoza (dumplings).",
         landmarks: [
-            { name: "Haneda Airport", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Ikegami Honmonji Temple", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Omori Furusato-no-Hamabe Park", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Haneda Airport", link: "https://www.google.com/maps/place/Tokyo+International+Airport+(Haneda+Airport)/@35.5477171,139.7581887,14z/data=!3m1!4b1!4m6!3m5!1s0x6018640ba43192e3:0xd32c3a9d146f8df!8m2!3d35.5482964!4d139.7779951!16zL20vMDFubG1t?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Ikegami Honmonji Temple", link: "https://www.google.com/maps/place/Ikegami+Hommon-ji/@35.5787893,139.7026101,16z/data=!3m1!4b1!4m6!3m5!1s0x6018601a4881981f:0x764d33ce158f662d!8m2!3d35.578785!4d139.705185!16s%2Fg%2F11bwlcvqyt?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Omori Furusato-no-Hamabe Park", link: "https://www.google.com/maps/place/Ōmori+Furusato-no-Hamabe+Riverside+Park/@35.5735114,139.7391153,16z/data=!3m1!4b1!4m6!3m5!1s0x601861af8e68e2f7:0xeeaa5fe41f71cfd1!8m2!3d35.5735071!4d139.7416902!16s%2Fg%2F122wttyx?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Anamori Inari Shrine", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Senzokuike Park", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Anamori Inari Shrine", link: "https://www.google.com/maps/place/Anamori+Inari+Shrine/@35.5505208,139.7471128,16z/data=!3m1!4b1!4m6!3m5!1s0x6018613fd4a973b7:0xfbe896657f2f3ee2!8m2!3d35.5505165!4d139.7496877!16s%2Fg%2F1219mpls?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Senzokuike Park", link: "https://www.google.com/maps/place/Senzokuike+Park/@35.6029086,139.6878081,16z/data=!3m1!4b1!4m6!3m5!1s0x60188acac9d151c1:0x3a6a17980c083601!8m2!3d35.6029043!4d139.690383!16s%2Fg%2F1wk6zrn0?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Ōta,_Tokyo"
     },
@@ -205,13 +205,13 @@ const wardData = {
         briefHistory: "One of the oldest areas in Tokyo, historically a post town on the Tokaido road and a key port area during the Edo period.",
         famousFood: "Shinagawa Sushi and Eel Dishes (Unagi).",
         landmarks: [
-            { name: "Sengakuji Temple", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Tennozu Isle", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Sengakuji Temple", link: "https://www.google.com/maps/place/Sengaku-ji/@35.637744,139.7338257,17z/data=!3m2!4b1!5s0x60188bab517883d3:0x3547b1e7e0dc53f9!4m6!3m5!1s0x60188bab4f0aae87:0x9e2f9a03c61c1e2b!8m2!3d35.6377397!4d139.7364006!16zL20vMDMxdjQz?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Tennozu Isle", link: "https://www.google.com/maps/place/Tennōzu+Isle+Waterfront+Plaza/@35.6377654,139.7261009,15z/data=!4m10!1m2!2m1!1stenozu+isle!3m6!1s0x60188a6aa53e509b:0x226fb4d0fc73b16b!8m2!3d35.6245994!4d139.7516996!15sCgx0ZW5ub3p1IGlzbGWSAQRwYXJr4AEA!16s%2Fg%2F121h3gc7?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
             { name: "Hara Museum ARC", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Shinagawa Shrine", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Gotenyama Garden", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Shinagawa Shrine", link: "https://www.google.com/maps/place/Shinagawa+Shrine/@35.6184708,139.7371299,17z/data=!3m1!4b1!4m6!3m5!1s0x60188a6707ed45a9:0xeb3ccef0c68029e4!8m2!3d35.6184665!4d139.7397048!16s%2Fg%2F1vl9rgrv?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Gotenyama Garden", link: "https://www.google.com/maps/place/Gotenyama+Garden/@35.6208357,139.7345764,17z/data=!3m1!4b1!4m6!3m5!1s0x60188a5e9816c3d9:0xfbb30ba7fedd29df!8m2!3d35.6208314!4d139.7371513!16s%2Fg%2F1211r97_?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Shinagawa,_Tokyo"
     },
@@ -226,13 +226,13 @@ const wardData = {
         briefHistory: "Meguro has long been a residential and cultural district, becoming an upscale area known for its art, dining, and cherry blossoms.",
         famousFood: "Japanese sweets and trendy cafés in Nakameguro.",
         landmarks: [
-            { name: "Meguro River", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Tokyo Metropolitan Teien Art Museum", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Rinshinomori Park", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Meguro River", link: "https://www.google.com/maps/place/Meguro+River/@35.632026,139.6754801,13z/data=!3m1!4b1!4m6!3m5!1s0x60188b22d7336a5b:0x50f2e54b55d6b096!8m2!3d35.6299045!4d139.7141956!16s%2Fm%2F0100r931?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Tokyo Metropolitan Teien Art Museum", link: "https://www.google.com/maps/place/Tokyo+Metropolitan+Teien+Art+Museum/@35.6369508,139.7144274,16z/data=!3m2!4b1!5s0x60188b1afa5132dd:0x55cb2270ea5d124!4m6!3m5!1s0x60188b1b07ef2e41:0xdc7a7c82eae46af8!8m2!3d35.6369465!4d139.7190408!16s%2Fm%2F02q2fkp?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Rinshinomori Park", link: "https://www.google.com/maps/place/Rinshi-no-mori+Park/@35.6250359,139.700692,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b287f422e6f:0xd1216ebe896df079!8m2!3d35.6250316!4d139.7032669!16s%2Fg%2F120t4nfl?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Meguro Fudo Temple", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Nakameguro Koukashita", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Meguro Fudo Temple", link: "https://www.google.com/maps/place/Ryusen-ji+Temple+(Meguro+Fudoson)/@35.6286428,139.7054982,16z/data=!3m1!4b1!4m6!3m5!1s0x60188b211bf9465b:0xaab404001c37f6bf!8m2!3d35.6286385!4d139.7080731!16s%2Fm%2F0wbmrdv?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Nakameguro Koukashita", link: "hhttps://www.google.com/maps/place/Naka-Meguro+Koukashita/@35.6444244,139.6965067,17z/data=!3m2!4b1!5s0x60188b48deea10d9:0x4c4c59b53e0fbcd0!4m6!3m5!1s0x60188d78c9f5d583:0x46b757a502e461db!8m2!3d35.6444201!4d139.6990816!16s%2Fg%2F11qnf6yqwk?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Meguro,_Tokyo"
     },
@@ -247,13 +247,13 @@ const wardData = {
         briefHistory: "Minato became a central area of Tokyo in the Edo period and is now known for its embassies, corporate headquarters, and luxury living.",
         famousFood: "High-end sushi and international cuisine in Roppongi.",
         landmarks: [
-            { name: "Tokyo Tower", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Roppongi Hills", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Odaiba Rainbow Park", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Tokyo Tower", link: "https://www.google.com/maps/place/Tokyo+Tower/@35.6585848,139.742858,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bbd9009ec09:0x481a93f0d2a409dd!8m2!3d35.6585805!4d139.7454329!16zL20vMDEzMl94?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Roppongi Hills", link: "https://www.google.com/maps/place/Roppongi+Hills/@35.6602427,139.7275018,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b771049dc33:0x5bfe0248594cc802!8m2!3d35.6602384!4d139.7300767!16zL20vMDFyMl9r?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Odaiba Rainbow Park", link: "https://www.google.com/maps/place/Odaiba+Rainbow+Park/@35.6330879,139.7754245,16z/data=!3m1!4b1!4m6!3m5!1s0x601889f3875498c7:0xc9fcfd7b8268a14f!8m2!3d35.6330836!4d139.7779994!16s%2Fg%2F1229d68f?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Hamarikyu Gardens", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Shiba Toshogu", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Hamarikyu Gardens", link: "https://www.google.com/maps/place/Hamarikyū+Gardens/@35.6596602,139.7608342,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bdcbaa0f7c1:0x9b4a9ebdf898381a!8m2!3d35.6596559!4d139.7634091!16s%2Fg%2F1ts1mmld?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Shiba Toshogu", link: "https://www.google.com/maps/place/Shiba+Toshogu/@35.6551033,139.7460364,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bb940b0e661:0x6d31278b4c6017d8!8m2!3d35.655099!4d139.7486113!16s%2Fg%2F12116v35?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Minato,_Tokyo"
     },
@@ -268,13 +268,13 @@ const wardData = {
         briefHistory: "Shibuya developed as a commercial hub in the 20th century, becoming synonymous with fashion, youth culture, and technology.",
         famousFood: "Trendy cafes, fusion cuisine, and gourmet desserts.",
         landmarks: [
-            { name: "Shibuya Crossing", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Meiji Shrine", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Yoyogi Park", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Shibuya Crossing", link: "https://www.google.com/maps/place/Shibuya+Scramble+Crossing/@35.6594863,139.6979847,17z/data=!3m2!4b1!5s0x60188b57f546295f:0x486cece41a7b21b0!4m6!3m5!1s0x60188bcaeb0cd12b:0x20e563a2e0aec969!8m2!3d35.659482!4d139.7005596!16s%2Fg%2F11shy4scrj?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Meiji Shrine", link: "https://www.google.com/maps/place/Meiji+Jingu/@35.6764019,139.696751,16z/data=!3m1!4b1!4m6!3m5!1s0x60188cb79a4c26e5:0x8fca893849103f73!8m2!3d35.6763976!4d139.6993259!16zL20vMDFxX2s5?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Yoyogi Park", link: "https://www.google.com/maps/place/Yoyogi+Park/@35.6700692,139.6923907,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cb479620a33:0x34bcc78ce7f8bf3e!8m2!3d35.6700649!4d139.6949656!16zL20vMDNjcWtq?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Toguri Museum of Art", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Kyu Asakura House", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Toguri Museum of Art", link: "https://www.google.com/maps/place/Toguri+Museum/@35.6614315,139.6902176,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cac9cf03c97:0x1b57052ed8be7c78!8m2!3d35.6614272!4d139.6927925!16s%2Fg%2F122z7ndz?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Kyu Asakura House", link: "https://www.google.com/maps/place/Kyu+Asakura+House/@35.647199,139.6989591,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b4f65cb423d:0xa4caa0d8de04ffb2!8m2!3d35.6471947!4d139.701534!16s%2Fm%2F0zc1b_2?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Shibuya",
     },
@@ -289,13 +289,13 @@ const wardData = {
         briefHistory: "Nakano began as a farming area but evolved into a cultural and residential hub, renowned for its otaku and pop culture scene.",
         famousFood: "Yakitori and ramen shops concentrated around Nakano Station.",
         landmarks: [
-            { name: "Nakano Broadway", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Araiyakushi Baishoin Temple", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Nakano Sun Plaza", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Nakano Broadway", link: "https://www.google.com/maps/place/Nakano+Broadway/@35.7092518,139.6630775,16z/data=!3m2!4b1!5s0x6018f2974cf916e3:0x565f08916ebefb15!4m6!3m5!1s0x6018f290b2ddee83:0xe1b67e4ee0eff0be!8m2!3d35.7092475!4d139.6656524!16s%2Fm%2F0nbg7q5?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Araiyakushi Baishoin Temple", link: "https://www.google.com/maps/place/Araiyakushi+Baishouin/@35.7140339,139.6649683,16z/data=!3m1!4b1!4m6!3m5!1s0x6018f2992291da51:0x2ed88e3ac9a8312d!8m2!3d35.7140296!4d139.6675432!16s%2Fg%2F122pl74h?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Nakano Sun Plaza", link: "https://www.google.com/maps/place/Nakano+Sun+Mall/@35.70648,139.6632299,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f296b578d27f:0xc80a0aa3c690cb85!8m2!3d35.7064757!4d139.6658048!16s%2Fg%2F122brw22?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Tetsugakudo Park", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Nogata Shiki no Mori Park", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Tetsugakudo Park", link: "https://www.google.com/maps/place/Tetsugakudo+Park/@35.7220616,139.6717225,16z/data=!3m1!4b1!4m6!3m5!1s0x6018f2a09ce51a59:0x70642094a759a1a5!8m2!3d35.7220573!4d139.6742974!16s%2Fg%2F121f8wdp?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Sanshi-no-mori Park", link: "https://www.google.com/maps/place/Sanshi-no-mori+Park/@35.6971694,139.6538729,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f28ca513db63:0x41a8e14fa4730c4a!8m2!3d35.6971651!4d139.6564478!16s%2Fg%2F1227vh24?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Nakano,_Tokyo",
     },
@@ -310,13 +310,13 @@ const wardData = {
         briefHistory: "Once a quiet farming area, Toshima developed into a vibrant cultural and commercial hub centered around Ikebukuro. It was officially established as a ward in 1932.",
         famousFood: "Ikebukuro ramen, particularly in the west-side ramen alley.",
         landmarks: [
-            { name: "Sunshine City", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Pokémon Center Mega Tokyo & Pikachu Sweets", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Mejiro Garden", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Sunshine City", link: "https://www.google.com/maps/place/Sunshine+City/@35.7289752,139.7169666,17z/data=!3m1!4b1!4m6!3m5!1s0x60188d6f134fd653:0x51eb1d42c77222c2!8m2!3d35.7289709!4d139.7195415!16zL20vMGRzM3lj?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Pokémon Center Mega Tokyo & Pikachu Sweets", link: "https://www.google.com/maps/place/Pokémon+Center+Mega+Tokyo+%26+Pikachu+Sweets/@35.7289099,139.7167496,17z/data=!3m2!4b1!5s0x60188d6f00e83cbb:0xa094042101c97f88!4m6!3m5!1s0x60188d6f044d6725:0x5c5c669ed9f5c455!8m2!3d35.7289056!4d139.7193245!16s%2Fg%2F11b7l7y6j2?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Mejiro Garden", link: "https://www.google.com/maps/place/Mejiro+Garden/@35.7244774,139.702958,16z/data=!3m1!4b1!4m6!3m5!1s0x60188d4493d765f5:0xe80e0768c45253e!8m2!3d35.7244731!4d139.7055329!16s%2Fg%2F1tfd2d5h?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Toshima City Tokiwaso Manga Museum", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Toshima City Morikazu Kumagai Art Museum", link: "https://www.google.com/maps/place/Carrot+Tower/@35.6435002,139.6694931,17z/data=!4m6!3m5!1s0x6018f59e9c9c3f83:0x670643fdfc5ec473!8m2!3d35.6436933!4d139.669292!16s%2Fg%2F11fkt4r6k8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Tokiwaso Manga Museum", link: "https://www.google.com/maps/place/Toshima+City+Tokiwaso+Manga+Museum/@35.7242942,139.6834235,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f35913eafb9f:0x932250aec9d5b534!8m2!3d35.7242899!4d139.6859984!16s%2Fg%2F11fsnxghdw?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Hobby Center Kato", link: "https://www.google.com/maps/place/Hobby+Center+Kato/@35.7214243,139.6774451,16z/data=!3m1!4b1!4m6!3m5!1s0x6018f2a63de268fb:0xd4dc75a91eebb5be!8m2!3d35.72142!4d139.68002!16s%2Fg%2F1thx_vc_?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Toshima,_Tokyo",
     },
@@ -478,13 +478,13 @@ const wardData = {
         briefHistory: "Established in 1947 by merging Honjo and Mukojima wards. Known for its traditional crafts and as the birthplace of sumo wrestling.",
         famousFood: "Chanko-nabe (sumo wrestler's hot pot) and yakitori.",
         landmarks: [
-            { name: "Tokyo Skytree", link: "https://www.google.com/maps/place/Bank+of+Japan+Currency+Museum/@35.6854615,139.7716826,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bfe39d03f61:0xcb146916efad5dda!8m2!3d35.6854615!4d139.7716826!16s%2Fm%2F0bbvyrr?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Edo-Tokyo Museum", link: "https://www.google.com/maps/place/Bank+of+Japan+Currency+Museum/@35.6854615,139.7716826,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bfe39d03f61:0xcb146916efad5dda!8m2!3d35.6854615!4d139.7716826!16s%2Fm%2F0bbvyrr?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Sumida Aquarium", link: "https://www.google.com/maps/place/Bank+of+Japan+Currency+Museum/@35.6854615,139.7716826,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bfe39d03f61:0xcb146916efad5dda!8m2!3d35.6854615!4d139.7716826!16s%2Fm%2F0bbvyrr?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Tokyo Skytree", link: "https://www.google.com/maps/place/Tokyo+Skytree/@35.710067,139.8081255,17z/data=!3m1!4b1!4m6!3m5!1s0x60188ed0d12f9adf:0x7d1d4fb31f43f72a!8m2!3d35.7100627!4d139.8107004!16zL20vMDd0aGty?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Edo-Tokyo Museum", link: "https://www.google.com/maps/place/Edo-Tokyo+Museum/@35.6966015,139.7931587,16z/data=!3m1!4b1!4m6!3m5!1s0x60188934e1ee6539:0xc641f2f12c4bbd3!8m2!3d35.6965972!4d139.7957336!16s%2Fm%2F027sjq2?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Sumida Aquarium", link: "https://www.google.com/maps/place/Sumida+Aquarium/@35.7099344,139.8070106,16z/data=!3m1!4b1!4m6!3m5!1s0x60188ed6ddcaa63b:0x52f9e68583464160!8m2!3d35.7099301!4d139.8095855!16s%2Fg%2F1hc0hhtgk?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         hiddenGems: [
-            { name: "Sumida Modern Artisan Workshop", link: "https://www.google.com/maps/place/Bank+of+Japan+Currency+Museum/@35.6854615,139.7716826,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bfe39d03f61:0xcb146916efad5dda!8m2!3d35.6854615!4d139.7716826!16s%2Fm%2F0bbvyrr?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
-            { name: "Mukojima Hyakkaen Garden", link: "https://www.google.com/maps/place/Bank+of+Japan+Currency+Museum/@35.6854615,139.7716826,16z/data=!3m1!4b1!4m6!3m5!1s0x60188bfe39d03f61:0xcb146916efad5dda!8m2!3d35.6854615!4d139.7716826!16s%2Fm%2F0bbvyrr?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Sumida Modern Artisan Workshop", link: "https://www.google.com/maps/place/Atoriesogeikan/@35.703736,139.8104727,17z/data=!3m1!4b1!4m6!3m5!1s0x6018892abce46f41:0xb4aa0f1a689c88c6!8m2!3d35.7037317!4d139.8130476!16s%2Fg%2F1td5lp83?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
+            { name: "Mukojima Hyakkaen Garden", link: "https://www.google.com/maps/place/Mukojima-Hyakkaen+Gardens/@35.7242188,139.8109872,17z/data=!3m1!4b1!4m6!3m5!1s0x60188f1ff4a0a553:0xf42f2d949b82d148!8m2!3d35.7242145!4d139.8156006!16s%2Fm%2F0gysv4s?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" },
         ],
         wikipedia: "https://en.wikipedia.org/wiki/Sumida,_Tokyo",
     },
