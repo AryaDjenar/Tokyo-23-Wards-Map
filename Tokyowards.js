@@ -6,7 +6,7 @@ const closeBtn = document.getElementById("close-btn");
 
 const wardData = {
     Edogawa: {
-        flag: "Wards emblem/Edogawa-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Edogawa-emblem.svg", 
         name: "Edogawa",
         kanji: "江戸川区",
         meaning: "Edo (江戸) means 'Edo City,' and kawa (川) means 'river.'",
@@ -27,7 +27,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Edogawa,_Tokyo"
     },
     Adachi: {
-        flag: "Wards emblem/Adachi-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Adachi-emblem.svg", 
         name: "Adachi",
         kanji: "足立区",
         meaning: "足 (Ashi) means 'foot' or 'leg,' and 立 (Tachi) means 'stand.' Together, it suggests 'standing on one's own feet.'",
@@ -48,7 +48,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Adachi,_Tokyo"
     },
     Katsushika: {
-        flag: "Wards emblem/Katsushika-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Katsushika-emblem.svg", 
         name: "Katsushika",
         kanji: "葛飾区",
         meaning: "葛 (Kuzu) means 'kudzu vine,' and 飾 (Shika) means 'decorate' or 'ornament.'",
@@ -69,7 +69,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Katsushika"
     },
     Kita: {
-        flag: "Wards emblem/Kita-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Kita-emblem.svg", 
         name: "Kita",
         kanji: "北区",
         meaning: "北 (Kita) means 'north,' reflecting its geographical location in Tokyo.",
@@ -90,7 +90,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Kita,_Tokyo"
     },
     Itabashi: {
-        flag: "Wards emblem/Itabashi-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Itabashi-emblem.svg", 
         name: "Itabashi",
         kanji: "板橋区",
         meaning: "Itabashi (板橋) means 'plank bridge,' referencing a historic wooden bridge in the area.",
@@ -111,7 +111,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Itabashi"
     },
     Nerima: {
-        flag: "Wards emblem/Nerima-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Nerima-emblem.svg", 
         name: "Nerima",
         kanji: "練馬区",
         meaning: "Nerima (練馬) likely derives from the word 'Neri,' which means 'to knead,' referencing fertile agricultural land.",
@@ -132,7 +132,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Nerima"
     },
     Suginami: {
-        flag: "Wards emblem/Suginami-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Suginami-emblem.svg", 
         name: "Suginami",
         kanji: "杉並区",
         meaning: "Sugi (杉) means 'cedar,' and nami (並) means 'row,' referring to rows of cedar trees historically found in the area.",
@@ -153,7 +153,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Suginami"
     },
     Setagaya: {
-        flag: "Wards emblem/Setagaya-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Setagaya-emblem.svg", 
         name: "Setagaya",
         kanji: "世田谷区",
         meaning: "Seta (世田) means 'rice field generations,' and gaya (谷) means 'valley.' The name reflects the area’s historic agricultural roots.",
@@ -174,7 +174,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Setagaya"
     },
     Ota: {
-        flag: "Wards emblem/Ota-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Ota-emblem.svg", 
         name: "Ōta",
         kanji: "大田区",
         meaning: "Ō (大) means 'large' or 'great,' and ta (田) means 'rice field,' reflecting the area's agricultural heritage.",
@@ -195,7 +195,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Ōta,_Tokyo"
     },
     Shinagawa: {
-        flag: "Wards emblem/Shinagawa-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Shinagawa-emblem.svg", 
         name: "Shinagawa",
         kanji: "品川区",
         meaning: "Shina (品) means 'goods,' and gawa (川) means 'river,' hinting at its historical role as a port and trade area.",
@@ -216,7 +216,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Shinagawa,_Tokyo"
     },
     Meguro: {
-        flag: "Wards emblem/Meguro-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Meguro-emblem.svg", 
         name: "Meguro",
         kanji: "目黒区",
         meaning: "Me (目) means 'eye,' and kuro (黒) means 'black.' The name originates from a legendary black-eyed statue of a guardian deity at Meguro Fudo Temple.",
@@ -237,7 +237,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Meguro,_Tokyo"
     },
     Minato: {
-        flag: "Wards emblem/Minato-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Minato-emblem.svg", 
         name: "Minato",
         kanji: "港区",
         meaning: "Minato (港) means 'harbor,' reflecting its historic role as a port area.",
@@ -258,7 +258,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Minato,_Tokyo"
     },
     Shibuya: {
-        flag: "Wards emblem/Shibuya-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Shibuya-emblem.svg", 
         name: "Shibuya",
         kanji: "渋谷区",
         meaning: "Shibuya (渋谷) translates to 'bitter valley,' though today it's anything but bitter.",
@@ -279,7 +279,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Shibuya",
     },
     Nakano: {
-        flag: "Wards emblem/Nakano-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Nakano-emblem.svg", 
         name: "Nakano",
         kanji: "中野区",
         meaning: "Nakano (中野) means 'central field,' reflecting its historical agricultural roots.",
@@ -300,7 +300,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Nakano,_Tokyo",
     },
     Toshima: {
-        flag: "Wards emblem/Toshima-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Toshima-emblem.svg", 
         name: "Toshima",
         kanji: "豊島区",
         meaning: "Toshima (豊島) translates to 'abundant island,' reflecting its fertile land.",
@@ -321,7 +321,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Toshima,_Tokyo",
     },
     Shinjuku: {
-        flag: "Wards emblem/Shinjuku-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Shinjuku-emblem.svg", 
         name: "Shinjuku",
         kanji: "新宿区",
         meaning: "Shinjuku (新宿) means 'new inn' or 'new lodge,' reflecting its origins as a rest area during the Edo period.",
@@ -331,8 +331,8 @@ const wardData = {
         briefHistory: "Once a post town during the Edo period, Shinjuku grew into a bustling urban center. It officially became a ward in 1947 and now serves as Tokyo's government and entertainment hub.",
         famousFood: "Yakitori in Omoide Yokocho and high-quality sushi from luxury establishments.",
         landmarks: [
-            { name: "Tokyo Metropolitan Government Building", link: "https://www.google.com/maps/place/Tokyo+Metropolitan+Government+Building/@35.6896345,139.6917097,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cd6af1a26fb:0x4781722b764c1d15!8m2!3d35.6896345!4d139.6942784" },
-            { name: "Shinjuku Gyoen National Garden", link: "https://www.google.com/maps/place/Shinjuku+Gyoen+National+Garden/@35.6851767,139.7092161,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cd0ef2c12b5:0xb6b13b492e33e7cb!8m2!3d35.6851767!4d139.7117849" },
+            { name: "Tokyo Metropolitan Government Building", link: "https://www.google.com/maps/place/Tokyo+Metropolitan+Government+Building+South+Observatory/@35.6893292,139.689238,17z/data=!3m2!4b1!5s0x60188cd498eb5371:0x46cb7b987c5bc5b7!4m6!3m5!1s0x60188df0b64849fd:0x88b1056bc74c533f!8m2!3d35.6893249!4d139.6918129!16s%2Fg%2F11j7dm8hrw?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" },
+            { name: "Shinjuku Gyoen National Garden", link: "https://www.google.com/maps/place/Shinjuku+Gyoen+National+Garden/@35.6851806,139.7074768,16z/data=!3m1!4b1!4m6!3m5!1s0x60188cc21b93233f:0x6a1eb1b5a117f287!8m2!3d35.6851763!4d139.7100517!16zL20vMDdkM24x?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" },
             { name: "Kabukicho District", link: "https://www.google.com/maps/place/Kabukicho/@35.6961027,139.6977476,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cd5fa68afdf:0x2538821db5da2f9c!8m2!3d35.6961027!4d139.7003163" },
         ],
         hiddenGems: [
@@ -342,7 +342,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Shinjuku",
     },
     Chiyoda: {
-        flag: "Wards emblem/Chiyoda-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Chiyoda-emblem.svg", 
         name: "Chiyoda",
         kanji: "千代田区",
         meaning: "Chiyoda (千代田) means 'field of a thousand generations,' symbolizing longevity and stability.",
@@ -363,7 +363,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Chiyoda,_Tokyo",
     },
     Bunkyo: {
-        flag: "Wards emblem/Bunkyo-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Bunkyo-emblem.svg", 
         name: "Bunkyo",
         kanji: "文京区",
         meaning: "Bunkyo (文京) means 'capital of literature and culture,' reflecting its rich academic and literary heritage.",
@@ -384,7 +384,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Bunkyo",
     },
     Arakawa: {
-        flag: "Wards emblem/Arakawa-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Arakawa-emblem.svg", 
         name: "Arakawa",
         kanji: "荒川区",
         meaning: "Arakawa (荒川) means 'wild river,' named after the nearby Arakawa River.",
@@ -405,7 +405,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Arakawa,_Tokyo",
     },
     Taito: {
-        flag: "Wards emblem/Taito-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Taito-emblem.svg", 
         name: "Taito",
         kanji: "台東区",
         meaning: "Taito (台東) combines 'platform' (台) and 'east' (東), reflecting its position in eastern Tokyo.",
@@ -426,7 +426,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Tait%C5%8D",
     },
     Koto: {
-        flag: "Wards emblem/Koto-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Koto-emblem.svg", 
         name: "Koto",
         kanji: "江東区",
         meaning: "Koto (江東) combines 'river' or 'bay' (江) and 'east' (東), reflecting its location east of the Sumida River.",
@@ -447,7 +447,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/K%C5%8Dto,_Tokyo",
     },
     Chuo: {
-        flag: "Wards emblem/Chuo-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Chuo-emblem.svg", 
         name: "Chuo",
         kanji: "中央区",
         meaning: "Chuo (中央) means 'central,' reflecting its status as a core part of Tokyo.",
@@ -468,7 +468,7 @@ const wardData = {
         wikipedia: "https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo",
     },
     Sumida: {
-        flag: "Wards emblem/Sumida-emblem.svg", // Add the flag image URL
+        flag: "Wards emblem/Sumida-emblem.svg", 
         name: "Sumida",
         kanji: "墨田区",
         meaning: "Sumida (墨田) combines 'ink' (墨) and 'field' (田), named after the Sumida River.",
@@ -613,7 +613,7 @@ wards.forEach(ward => {
     });
 });
 
-// DOM Elements
+
 const audio = document.getElementById('Bgm-audio');
 const playPauseBtn = document.getElementById('play-pause-btn');
 const volumeUpBtn = document.getElementById('volume-up-btn');
